@@ -2,6 +2,12 @@
 
 - **Node.js**
 
+## Descarga
+
+Para descargar el repositorio, utiliza el siguiente comando:
+
+`git clone https://github.com/Adan-Perez/scrap-leercapitulo.git `
+
 ## Instalación
 
 Para instalar la aplicación, utiliza el siguiente comando:
