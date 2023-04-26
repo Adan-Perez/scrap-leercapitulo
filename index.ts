@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { existsSync, mkdirSync, writeFileSync } from 'fs';
+import { existsSync, mkdirSync, rmSync, writeFileSync } from 'fs';
 import * as path from 'path';
 import * as download from 'download';
 import { load } from 'cheerio';
@@ -140,6 +140,8 @@ async function getImagesPtr(url: string, mangaTitle: string, chapterIndex: numbe
     console.log(`Capítulo ${chapterIndex} descargado  del manga ${mangaTitle}`);
 
     await cbzCompress(chapterFolder);
+
+    rmSync(chapterFolder, { recursive: true });
 
     await browser.close();
   } catch (error) {
