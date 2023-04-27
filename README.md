@@ -1,6 +1,6 @@
 # Requisitos
 
-- **Node.js**
+- **Node.js y Typescript**
 
 ## Descarga
 
@@ -23,3 +23,7 @@ Para ejecutar la aplicación, utiliza el siguiente comando:
 Se debe tener Node.js instalado en el sistema antes de ejecutar la aplicación.
 
 ### Recomendable Node v18.16.0
+- **En caso de no tener instalado typescript:**
+`npm install -g typescript ts-node`
+**o como dependencia**
+`npm install -D typescript`
