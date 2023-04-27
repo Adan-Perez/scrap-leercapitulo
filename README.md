@@ -20,4 +20,5 @@ Para ejecutar la aplicación, utiliza el siguiente comando:
 
 `npm run dev` _ó_ `ts-node index.ts`
 
-Se debe tener Node.js instalado en el sistema antes de ejecutar la aplicación.
+Para instalar Typescript se utiliza el siguiente comando:
+`npm install -g typescript ts-node`
