@@ -2,3 +2,4 @@ node_modules/
 *.log
 mangas/
 package-lock.json
+test.ts
